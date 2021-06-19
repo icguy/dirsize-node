@@ -1,0 +1,20 @@
+{
+	"name": "dirsize-node",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": "ayhand <ayhandani@hotmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"start": "tsc main.ts && node main.js",
+		"debug": "tsc main.ts && node --inspect-brk main.js",
+		"serve": "http-server html-displayer"
+	},
+	"dependencies": {
+		"typescript": "^4.2.4"
+	},
+	"devDependencies": {
+		"@types/jquery": "^3.5.5",
+		"@types/node": "^14.14.41",
+		"http-server": "^0.12.3"
+	}
+}

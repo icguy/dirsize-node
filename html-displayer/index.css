@@ -1,0 +1,16 @@
+body {
+	padding: 1rem;
+}
+
+#metadata {
+	font-size: 1.5rem;
+	font-weight: bold;
+	padding-bottom: 1rem;
+}
+
+.item-button {
+	display: flex !important;
+	justify-content: space-between;
+	margin: .4rem;
+	width: 100%;
+}
